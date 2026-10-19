@@ -1,0 +1,17 @@
+# Build artifacts
+[Dd]ebug/
+[Rr]elease/
+bin/
+obj/
+*.zip
+
+# IDE files
+.vs/
+.idea/
+*.user
+*.suo
+
+# Never commit game DLLs
+References/
+libs/
+*.dll
