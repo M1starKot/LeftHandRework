@@ -10,7 +10,7 @@ using SPT.Reflection.Patching;
 
 namespace SPTLeftStanceWallFix
 {
-    [BepInPlugin("com.pein.leftstancewallfix", "SPTLeftStanceWallFix", "1.1.0")]
+    [BepInPlugin("com.pein.leftstancewallfix", "SPTLeftStanceWallFix", "1.0.0")]
     public class Plugin : BaseUnityPlugin
     {
         public static ManualLogSource LogSource;
@@ -30,7 +30,7 @@ namespace SPTLeftStanceWallFix
             new DisableLeftStanceAnimPatch().Enable();
             new SetLeftStanceForcePatch().Enable();
 
-            LogSource.LogInfo("SPTLeftStanceWallFix 1.1.0 (for SPT 4.1.6) loaded successfully!");
+            LogSource.LogInfo("SPTLeftStanceWallFix 1.0.0 (for SPT 4.1.6) loaded successfully!");
         }
     }
 
