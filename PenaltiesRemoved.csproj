@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>PenaltiesRemoved</AssemblyName>
+    <RootNamespace>PenaltiesRemoved</RootNamespace>
+    <Version>1.4.0</Version>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Mod.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SPTarkov.Common" Version="4.1.*" ExcludeAssets="runtime" />
+    <PackageReference Include="SPTarkov.DI" Version="4.1.*" ExcludeAssets="runtime" />
+    <PackageReference Include="SPTarkov.Server.Core" Version="4.1.*" ExcludeAssets="runtime" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="config.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

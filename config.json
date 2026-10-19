@@ -1,0 +1,7 @@
+{
+  "removeSpeedPenalty": true,
+  "removeMousePenalty": true,
+  "removeErgoPenalty": true,
+  "removeHearingPenalty": true,
+  "removeAttachmentErgoPenalty": true
+}
